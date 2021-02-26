@@ -90,11 +90,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -510,26 +505,6 @@ button {
     box-shadow: none;
 }
 
-.scrollToTop {
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0;
-    z-index: 500;
-    transition: all .3s ease-in-out;
-}
-
-.scrollToTop span {
-    margin-top: 6px;
-}
-
-.showScrollTop {
-    font-size: 14px;
-    opacity: 1;
-}
-
 a[data-lightbox] {
     position: relative;
     display: block;
@@ -659,7 +634,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 2.5rem;
 }
 
 .hero-bloc-text-sub {
@@ -674,10 +649,6 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
-}
-
-p {
-    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -714,6 +685,22 @@ h3 {
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+.text-citation {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0 100px 0 100px;
+}
+
+.text-portfolio {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .med-width-whitespace {
@@ -766,20 +753,16 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
-
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #CA3849;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #CA3849;
     color: #FFFFFF!important;
 }
 
@@ -797,7 +780,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #CA3849!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -809,20 +792,13 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-color: #CA3849;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
