@@ -772,11 +772,6 @@ h4 {
     background-color: #CA3849;
 }
 
-.bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
-}
-
-
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
