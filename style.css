@@ -660,7 +660,7 @@ a {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -1001,5 +1001,8 @@ h4 {
     }
     .text-citation {
         margin: 30px 15px 0 15px;
+    }
+    .icon-md {
+        margin: 2rem 0;
     }
 }
